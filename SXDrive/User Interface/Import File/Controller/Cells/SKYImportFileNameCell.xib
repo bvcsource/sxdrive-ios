@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="OpenSans-Regular.ttf">
+            <string>OpenSans</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" id="KGk-i7-Jjw" customClass="SKYImportFileNameCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="File_name.png" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hwE-HQ-DaU">
+                        <rect key="frame" x="52" y="8" width="260" height="27.5"/>
+                        <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="17"/>
+                        <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no"/>
+                        <connections>
+                            <outlet property="delegate" destination="KGk-i7-Jjw" id="7Lc-ao-eHq"/>
+                        </connections>
+                    </textField>
+                    <imageView userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="9go-bv-0lz">
+                        <rect key="frame" x="8" y="0.0" width="44" height="43.5"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="44" id="2Wm-5X-Rcc"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="hwE-HQ-DaU" firstAttribute="leading" secondItem="9go-bv-0lz" secondAttribute="trailing" id="6JD-sr-HTB"/>
+                    <constraint firstAttribute="bottom" secondItem="9go-bv-0lz" secondAttribute="bottom" id="Nsq-f5-5MX"/>
+                    <constraint firstItem="9go-bv-0lz" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="P7j-JA-vc2"/>
+                    <constraint firstItem="9go-bv-0lz" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="WHb-35-wzx"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="hwE-HQ-DaU" secondAttribute="trailing" id="hLF-Vk-nGR"/>
+                    <constraint firstAttribute="bottom" secondItem="hwE-HQ-DaU" secondAttribute="bottom" constant="8" id="l89-lP-uUz"/>
+                    <constraint firstItem="hwE-HQ-DaU" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="zoD-uF-OGr"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="fileIconImageView" destination="9go-bv-0lz" id="Ei4-RF-pMp"/>
+                <outlet property="textField" destination="hwE-HQ-DaU" id="nX2-aO-Hry"/>
+            </connections>
+            <point key="canvasLocation" x="229" y="267"/>
+        </tableViewCell>
+    </objects>
+</document>

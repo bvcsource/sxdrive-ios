@@ -1,0 +1,45 @@
+PODS:
+  - AFNetworking (2.5.2):
+    - AFNetworking/NSURLConnection (= 2.5.2)
+    - AFNetworking/NSURLSession (= 2.5.2)
+    - AFNetworking/Reachability (= 2.5.2)
+    - AFNetworking/Security (= 2.5.2)
+    - AFNetworking/Serialization (= 2.5.2)
+    - AFNetworking/UIKit (= 2.5.2)
+  - AFNetworking/NSURLConnection (2.5.2):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.5.2):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.5.2)
+  - AFNetworking/Security (2.5.2)
+  - AFNetworking/Serialization (2.5.2)
+  - AFNetworking/UIKit (2.5.2):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - JFBCrypt (0.1)
+  - Kiwi (2.3.1)
+  - RNCryptor (2.2)
+  - SSKeychain (1.3.1)
+  - UIDevice-Helpers (0.0.2)
+
+DEPENDENCIES:
+  - AFNetworking
+  - JFBCrypt
+  - Kiwi
+  - RNCryptor
+  - SSKeychain
+  - UIDevice-Helpers
+
+SPEC CHECKSUMS:
+  AFNetworking: fefbce9660acb17f48ae0011292d4da0f457bf36
+  JFBCrypt: b5333bb2ff2bc80dc370ac332dfbcefc41720dee
+  Kiwi: f038a6c61f7a9e4d7766bff5717aa3b3fdb75f55
+  RNCryptor: c68678461a2c7474a55db9a6a98834c22d51f535
+  SSKeychain: 04c4ec40f4c3deda524e269bc76e5f30e638a174
+  UIDevice-Helpers: 0268ee60d57668771fcfadcb79927009f184738e
+
+COCOAPODS: 0.39.0

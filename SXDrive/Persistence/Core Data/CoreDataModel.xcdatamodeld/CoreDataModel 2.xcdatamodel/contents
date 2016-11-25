@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="7701" systemVersion="14D136" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Item" representedClassName="SKYItem" syncable="YES">
+        <attribute name="addedThruApp" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="fileSize" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="isDirectory" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="isFavourite" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" minValueString="1" syncable="YES"/>
+        <attribute name="path" optional="YES" attributeType="String" minValueString="1" indexed="YES" syncable="YES"/>
+        <attribute name="pendingSync" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="properties" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="revision" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="tmpName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="updateDate" optional="YES" attributeType="Date" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Item" positionX="-63" positionY="-18" width="128" height="210"/>
+    </elements>
+</model>
